@@ -5,9 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DataAccess.Concrete.EntitiyFramework
+namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfOrderDal:EfEntityRepositoryBase<Order,NortwindContext>,IOrderDal
+    public class EfOrderDal:EfEntityRepositoryBase<Order,NorthwindContext>,IOrderDal
     {
     }
 }
